@@ -1,0 +1,68 @@
+.resume {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.863);
+    max-width: 1250px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edu_exp{
+    display: flex;
+    padding: 0px 10px;
+}
+
+.resume h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+}
+
+.resume h3 {
+    font-size: 22px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.resume p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.resume ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.resume ul li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.skill{
+    display: flex;
+    list-style: none;
+}
+
+.skill li{
+    padding: 5px 25px;
+}
+
+.resume .contact p {
+    margin-bottom: 5px;
+}
+
+.resume .contact p:last-child {
+    margin-bottom: 0;
+}

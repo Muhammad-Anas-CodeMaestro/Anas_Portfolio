@@ -1,0 +1,100 @@
+/* Resetting default margins and padding */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background image styling */
+.background_image {
+  width: 100vw;
+  height: 100vh;
+  background: url('./ABmVWk.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+/* Section Styling */
+.section {
+  color: rgb(182, 180, 180);
+  padding-left: 130px;
+}
+
+.section h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.section p {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.section ul {
+  margin-top: 15px;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+li::after {
+  display: flex;
+  flex-direction: column;
+  content: "";
+  background-color: green;
+  width: 0px;
+  height: 2px;
+  transition: width 0.3s ease;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(182, 180, 180);
+}
+
+ul li a:hover {
+  color: white;
+}
+
+li:hover::after {
+  width: 50%;
+}
+
+.section span {
+  border-bottom: 3px solid green;
+  padding-bottom: 3px;
+}
+
+/* Icon styling */
+.icon {
+  display: flex;
+  margin-top: 12px;
+}
+
+.icon div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.icon div:hover {
+  background-color: green;
+  transition-duration: 700ms;
+}
+
+.section li {
+  top: 62%;
+  left: 8.5%;
+}

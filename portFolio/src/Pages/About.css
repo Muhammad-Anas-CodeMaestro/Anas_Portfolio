@@ -1,0 +1,48 @@
+.formatting_background {
+    width: 98vw;
+    height: 100vh;
+    background: url('./image.png');
+}
+
+.section {
+    color: rgb(182, 180, 180);
+    padding-left: 130px;
+    padding-top: 13px;
+}
+
+.about_me {
+    display: flex;
+    margin-top: 50px;
+}
+
+.image_me{
+    margin: 0px 150px
+}
+
+.my_details{
+    color: white;
+    margin: 30px 0px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+
+.my_details h1{
+    margin: 15px 0px;
+}
+
+.my_details p{
+    color: rgba(250, 242, 242, 0.808);
+    padding: 15px 0px;
+}
+
+.my_details span{
+    font-size: 30px;
+    color: rgba(240, 248, 255, 0.788);
+    font-weight: bold;
+}
+
+.education_records{
+    font-size: large;
+}
+
